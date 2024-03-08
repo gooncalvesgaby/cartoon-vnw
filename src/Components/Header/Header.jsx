@@ -1,10 +1,10 @@
 import React from "react";
-import * as S from "./HeaderStyle"
+import * as S from "./HeaderStyle.jsx"
 
 function Header() {
     return (
         <S.StyleHeader>
-            <h1>TESTEEEEE</h1>
+            
         </S.StyleHeader>
     )
 }
