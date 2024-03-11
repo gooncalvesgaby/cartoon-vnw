@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 
 import Scooby from "./ImagensMain/scooby.png"
-import Ben10 from "./ImagensMain/ben.png"
+import Ben10 from "./ImagensMain/ben10.png"
 import Looney from "./ImagensMain/looney.png"
 
 // criando segunda section usando MAP
 import Gumball from "./ImagensMain/gumball.png"
 import Meninas from "./ImagensMain/meninas.png"
-import TomJerry from "./ImagensMain/tomjerry.png"
+import TomJerry from "./ImagensMain/tomejerry.png"
 
 import * as S from "./MainStyle"
 
