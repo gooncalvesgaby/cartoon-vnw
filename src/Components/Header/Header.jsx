@@ -1,28 +1,27 @@
 import React from "react";
 import * as S from "./HeaderStyle.jsx"
-import Cn from './imagensHeader/cartoon.png'
-import Jogo from './imagensHeader/jogo.png'
-import Programacao from './imagensHeader/programacao.png'
+import Logo from './imagensHeader/logo.png'
+import Jogos from './imagensHeader/controle.png'
+import Relogio from './imagensHeader/relogio.png'
 
 
 function Header() {
     return (
         <S.StyleHeader>
-            <img src={Cn} alt="" />
+            <img src={Logo} alt="Logo cn" />
 
-
-            <S.Section>
-                <S.Div>
-                    <S.Img src={Jogo} alt="" />
+            <S.StyleSection>
+                <S.StyleDiv>
+                    <img src={Jogos} alt="icone controle" />
                     <h2>JOGOS</h2>
-                </S.Div>
+                </S.StyleDiv>
 
-                <S.Div>
-                    <S.Img src={Programacao} alt="" />
+                <S.StyleDiv>
+                    <img src={Relogio} alt="icone de um relógio" />
                     <h2>PROGRAMAÇÃO</h2>
-                </S.Div>
+                </S.StyleDiv>
 
-            </S.Section>
+            </S.StyleSection>
         
         </S.StyleHeader>
     )
