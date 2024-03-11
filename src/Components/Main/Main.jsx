@@ -1,8 +1,9 @@
-import React from "react"
+import React from "react";
+import * as S from "./MainStyle"
 import Scooby from "./imagensMain/scooby.png"
 import Ben10 from "./imagensMain/ben.png"
 import Looney from "./imagensMain/looney.png"
-import * as S from "./MainStyle"
+
 
 
 
