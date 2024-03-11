@@ -8,7 +8,7 @@ justify-content: space-between;
 padding: 2rem;
 ` 
 export const Img = styled.img`
-width: 10vw;
+width: 7vw;
 
 `
 export const Section = styled.section`
