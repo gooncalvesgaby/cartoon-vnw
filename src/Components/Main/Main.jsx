@@ -1,10 +1,9 @@
-import React, { useState } from "react";
+import React, { useState } from "react"
 
 import Scooby from "./ImagensMain/scooby.png"
 import Ben10 from "./ImagensMain/ben10.png"
 import Looney from "./ImagensMain/looney.png"
 
-// criando segunda section usando MAP
 import Gumball from "./ImagensMain/gumball.png"
 import Meninas from "./ImagensMain/meninas.png"
 import TomJerry from "./ImagensMain/tomejerry.png"
@@ -15,18 +14,20 @@ import Programacao from "../Programacao/Programacao.jsx"
 
 
 function Main() {
+
+
     const [galeria, setGaleria] = useState([
         Gumball, Meninas, TomJerry
     ])
 
-
-    return(
+    return (
+        <main>
         <S.MainStyle>
             <S.StyledSection>
                 <img src={Scooby} alt="Scooby" />
                 <img src={Ben10} alt="Ben10" />
-                <img src={Looney} alt="Looney" />    
-            </S.StyledSection>
+                <img src={Looney} alt="Looney" />
+            </S.StyledSection>        
 
             <S.StyledSection2>
                 {galeria.map((item) => (
@@ -35,10 +36,11 @@ function Main() {
 
             </S.StyledSection2>
 
-            <Programacao />
+             <Programacao /> 
         </S.MainStyle>
-    )
 
+        </main>
+    )
 }
 
 export default Main
